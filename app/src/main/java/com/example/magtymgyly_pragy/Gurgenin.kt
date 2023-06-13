@@ -4,17 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.widget.TextView
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.ms.square.android.expandabletextview.ExpandableTextView
 
-class Activity_gosgy : AppCompatActivity() {
+class Gurgenin : AppCompatActivity() {
 
     // Declaring TextView from the Layout
     private lateinit var textview: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_gosgy)
+        setContentView(R.layout.activity_gurgenin)
 
         // initializing the TextView
         textview = findViewById(R.id.text)

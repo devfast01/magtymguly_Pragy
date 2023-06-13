@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 //                startActivity(intent)
                 when (positon) {
                     0 ->{
-                        val intent = Intent(this@MainActivity, Activity_gosgy::class.java)
+                        val intent = Intent(this@MainActivity, Gurgenin::class.java)
                         startActivity(intent)
                     }
                     1 ->{

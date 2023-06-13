@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Gerekdir">
+    tools:context=".gurgenin_Sound">
 
     <!-- Using CardView for CircularImageView -->
     <androidx.cardview.widget.CardView
@@ -27,14 +27,6 @@
             android:src="@drawable/magtymguly" />
     </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/gerekdir"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_below="@+id/cardView"
-        android:layout_marginTop="8dp"
-        android:scrollbars="vertical"
-        android:textSize="20sp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"

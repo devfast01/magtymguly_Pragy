@@ -34,14 +34,14 @@ class Activity_players : AppCompatActivity() {
         gosgyList = ArrayList()
 
         // Static data are stored one by one in the tutorialList arrayList
-        gosgyList!!.add(soundModel("Gurgenin", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Gerekdir", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
-        gosgyList!!.add(soundModel("Magtymguly", R.drawable.magtymguly))
+        gosgyList!!.add(soundModel("Gurgenin", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Gerekdir", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
 
         // The app will show Algorithms Sub-List every time the activity starts
         soundAdapter = soundAdapter(gosgyList!!)
@@ -60,7 +60,7 @@ class Activity_players : AppCompatActivity() {
                     true
                 }
                 R.id.message -> {
-                    startActivity(Intent(this, Activity_players::class.java))
+                    Toast.makeText(applicationContext,"Music", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.settings -> {
