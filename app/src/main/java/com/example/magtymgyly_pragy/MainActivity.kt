@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.settings -> {
-                    Toast.makeText(applicationContext,"settings",Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, Change_Language::class.java))
                     true
                 }
 

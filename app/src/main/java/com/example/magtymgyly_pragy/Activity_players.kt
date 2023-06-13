@@ -47,7 +47,29 @@ class Activity_players : AppCompatActivity() {
         soundAdapter = soundAdapter(gosgyList!!)
         soundRecycler.run { this!!.adapter = soundAdapter }
 
+// Setting up the events that will occur on each Main-List item click
+        soundAdapter!!.setWhenClickListener(object : soundAdapter.OnItemsClickListener {
+            override fun onItemClick(positon: Int) {
+//                val intent = Intent(this@MainActivity, Activity_gosgy::class.java)
+//                startActivity(intent)
+                when (positon) {
+                    0 ->{
+                        val intent = Intent(this@Activity_players, gurgenin_Sound::class.java)
+                        startActivity(intent)
+                    }
+                    1 ->{
+                        val intent = Intent(this@Activity_players, Gerekdir::class.java)
+                        startActivity(intent)
+                    }
+                    2 ->Toast.makeText(applicationContext, "uc:",Toast.LENGTH_SHORT).show()
+                    else -> { // Note the block
 
+                    }
+                }
+
+                //Toast.makeText(applicationContext, "Position: $positon",Toast.LENGTH_SHORT).show()
+            }
+        })
 
 
 

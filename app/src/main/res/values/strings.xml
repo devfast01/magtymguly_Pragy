@@ -1,10 +1,15 @@
-<resources>
-    <string name="app_name">Magtymgyly_Pragy</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--    <string name="app_name">Magtymgyly_Pragy</string>-->
     <!-- Preference Titles -->
 
-    <string name="ady">Gürgeniň</string>
-    <string name="binji">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nTokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
-    <string name="ikinji">Tokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.</string>
-    <string name="ucunji">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
+    <string name="app_name">GFG | Change App Language</string>
+    <string name="selected_language">English</string>
+    <string name="language">Hi, GFG</string>
+
+    <string name="ady" tools:ignore="MissingTranslation">Gürgeniň</string>
+    <string name="binji" tools:ignore="MissingTranslation">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nTokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
+    <string name="ikinji" tools:ignore="MissingTranslation">Tokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.</string>
+    <string name="ucunji" tools:ignore="MissingTranslation">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
 
 </resources>
+
