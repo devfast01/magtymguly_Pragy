@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Magtymgyly_Pragy</string>
+    <!-- Preference Titles -->
+
+    <string name="ady">Gürgeniň</string>
+    <string name="binji">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nTokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
+    <string name="ikinji">Tokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.</string>
+    <string name="ucunji">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
+
+</resources>
