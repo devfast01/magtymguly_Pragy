@@ -5,6 +5,9 @@
     <string name="text_hello">English hello world text </string>
     <string name="hello_name">Language changed by button</string>
 
+    <string name="magtyguly_pragy">Magtymguly Pyragy</string>
+
+
     <string name="Gurgenin" >
                     Gurgenin
 \n
@@ -72,7 +75,6 @@
 \nAdam ogly bäş gün duza myhmandyr.
 
     </string>
-    <string name="magtyguly_pragy">Magtyguly Pragy</string>
 
 
 </resources>

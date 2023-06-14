@@ -9,8 +9,9 @@ import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
 import android.widget.Toast
+import com.akexorcist.localizationactivity.ui.LocalizationActivity
 
-class goze_myhman_sound : AppCompatActivity() {
+class goze_myhman_sound : LocalizationActivity() {
 
     private lateinit var mediaPlayer: MediaPlayer
     private lateinit var runnable:Runnable

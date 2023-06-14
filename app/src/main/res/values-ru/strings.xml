@@ -3,38 +3,39 @@
     <string name="app_name">Изменить язык приложения</string>
     <string name="text_hello">Английский привет мир текст</string>
     <string name="hello_name">Язык меняется кнопкой</string>
+    <string name="magtyguly_pragy">pagtymguly pyragy</string>
 
-    <string name="Gurgenin">
-        Gurgenin
 
-  Öňünde belent dag, serinde duman,
-  Deňizden öwüser ýeli Gürgeniň;
-  Bulut oýnap, baran dolsa çaýlara,
-  Akar boz bulanyp sili Gürgeniň.
-
-  Tokaýlary bardyr gargy-gamyşly,
-  Gözelleri bardyr altyn-kümüşli
-  Boz güsbent, gyr ýylky, gara gäwmişli,
-  Argaly gäw bolar maly Gürgeniň.
-
-  Hatarlanyp duran iner, maýalar,
-  Agyr bezirgenler, tuçjar eýeler,
-  Seňrikläp, abanyp duran gaýalar,
-  Öňi-ardy sagy-soly Gürgeniň.
-
-  Ýigitler tirme-şal guşar biline,
-  Ýorga münüp, tarlaň alar eline,
-  Ak göwsün biýr jeren deňiz ýeline,
-  Mäleýir maraly çöli Gürgeniň.
-
-  Magtymguly ilden-ile aralar,
-  Hijran tygy bilen bagryn paralar,
-  Golun sallap maral gabak periler,
-  Iner olumyndan däli Gurgeniň.</string>
-
-    <string name="gozle_myhmandyr">
-       客
+    <string name="Gurgenin" >
+                    Gurgenin
 \n
+  \nÖňünde belent dag, serinde duman,
+  \nDeňizden öwüser ýeli Gürgeniň;
+  \nBulut oýnap, baran dolsa çaýlara,
+  \nAkar boz bulanyp sili Gürgeniň.
+  \n
+  \nTokaýlary bardyr gargy-gamyşly,
+  \nGözelleri bardyr altyn-kümüşli
+  \nBoz güsbent, gyr ýylky, gara gäwmişli,
+  \nArgaly gäw bolar maly Gürgeniň.
+        \n
+  \nHatarlanyp duran iner, maýalar,
+  \nAgyr bezirgenler, tuçjar eýeler,
+  \nSeňrikläp, abanyp duran gaýalar,
+  \nÖňi-ardy sagy-soly Gürgeniň.
+\n
+  \nÝigitler tirme-şal guşar biline,
+  \nÝorga münüp, tarlaň alar eline,
+  \nAk göwsün biýr jeren deňiz ýeline,
+  \nMäleýir maraly çöli Gürgeniň.
+\n
+  \nMagtymguly ilden-ile aralar,
+  \nHijran tygy bilen bagryn paralar,
+  \nGolun sallap maral gabak periler,
+  \nIner olumyndan däli Gurgeniň.</string>
+
+    <string name="gozle_myhmandyr">客
+        \n
 \n病は不幸だが、健康はおおいなる幸い
 \n肉体の宝はとこしえではなく
 \nそれはつかのまの客に過ぎね
@@ -62,10 +63,7 @@
 \n
 \nマグトウムグリ
 \n誰もがこの世のこの病とともにある
-\n恋する者だけがこの偽りの世界を楽しむことができるのだ
+\n恋する者だけがこの偽りの世界を楽しむことができるのだ</string>
 
-    </string>
-
-    <string name="magtyguly_pragy">magtyguly pragy</string>
 
 </resources>

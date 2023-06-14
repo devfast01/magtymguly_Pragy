@@ -6,9 +6,10 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.akexorcist.localizationactivity.ui.LocalizationActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class Activity_players : AppCompatActivity() {
+class Activity_players : LocalizationActivity() {
     lateinit var bottomNav : BottomNavigationView
 
     // reference for the Main-List RecyclerView

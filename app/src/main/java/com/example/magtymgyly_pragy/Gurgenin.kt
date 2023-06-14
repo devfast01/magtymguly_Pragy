@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.widget.TextView
+import com.akexorcist.localizationactivity.ui.LocalizationActivity
 
-class Gurgenin : AppCompatActivity() {
+class Gurgenin : LocalizationActivity() {
 
     // Declaring TextView from the Layout
     private lateinit var textview: TextView

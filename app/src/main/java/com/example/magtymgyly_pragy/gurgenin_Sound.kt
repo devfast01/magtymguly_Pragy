@@ -8,8 +8,9 @@ import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
 import android.widget.Toast
+import com.akexorcist.localizationactivity.ui.LocalizationActivity
 
-class gurgenin_Sound : AppCompatActivity() {
+class gurgenin_Sound : LocalizationActivity() {
 
     private lateinit var mediaPlayer: MediaPlayer
     private lateinit var runnable:Runnable
