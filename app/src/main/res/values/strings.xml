@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-<!--    <string name="app_name">Magtymgyly_Pragy</string>-->
+    <!--    <string name="app_name">Magtymgyly_Pragy</string>-->
     <!-- Preference Titles -->
 
-    <string name="app_name">GFG | Change App Language</string>
-    <string name="selected_language">English</string>
-    <string name="language">Hi, GFG</string>
+    <string name="app_name">Change App Language</string>
+    <string name="text_hello">English hello world text </string>
+    <string name="hello_name">Language changed by button</string>
 
     <string name="ady" tools:ignore="MissingTranslation">Gürgeniň</string>
     <string name="binji" tools:ignore="MissingTranslation">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nTokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>

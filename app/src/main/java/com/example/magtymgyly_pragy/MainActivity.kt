@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.settings -> {
-                    startActivity(Intent(this, Change_Language::class.java))
+                    startActivity(Intent(this, language_changer::class.java))
                     true
                 }
 

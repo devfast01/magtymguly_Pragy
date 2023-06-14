@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">GFG | Change App Language</string>
-    <string name="selected_language" tools:ignore="ExtraTranslation">हिन्दी</string>
-    <string name="language" tools:ignore="ExtraTranslation">नमस्ते, जी यफ जी</string>
+    <string name="app_name">Изменить язык приложения</string>
+    <string name="text_hello">Английский привет мир текст</string>
+    <string name="hello_name">Язык меняется кнопкой</string>
 </resources>
