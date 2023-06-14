@@ -5,18 +5,17 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.akexorcist.localizationactivity.ui.LocalizationActivity
 import com.example.magtymgyly_pragy.RVOneAdapter.OnItemsClickListener
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : LocalizationActivity() {
     lateinit var btnEnglish: ImageButton
-    lateinit var btnRusssian: ImageButton
+    lateinit var btnTurkmen: ImageButton
     lateinit var bottomNav: BottomNavigationView
 
     // reference for the Main-List RecyclerView
@@ -35,15 +34,15 @@ class MainActivity : AppCompatActivity() {
 
         // Linked up with its respective id used in the activity_main.xml
         btnEnglish = findViewById(R.id.btnEngish)
-        btnRusssian = findViewById(R.id.btnRussian)
+        btnTurkmen = findViewById(R.id.btnTurkmen)
         RVOne = findViewById(R.id.recyclerViewOne)
 
 
         btnEnglish.setOnClickListener {
-            Toast.makeText(this, "English", Toast.LENGTH_SHORT).show()
+            setLanguage("en")
         }
-        btnRusssian.setOnClickListener {
-            Toast.makeText(this, "Russian", Toast.LENGTH_SHORT).show()
+        btnTurkmen.setOnClickListener {
+            setLanguage("ru")
         }
 
         // Setting the Main-List RecyclerView horizontally
@@ -55,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
         // Static data are stored one by one in the tutorialList arrayList
         gosgyList!!.add(RVOneModel("Gurgenin", R.drawable.magtymguly))
-        gosgyList!!.add(RVOneModel("Gerekdir", R.drawable.magtymguly))
+        gosgyList!!.add(RVOneModel("Göze myhmandyr", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
@@ -80,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     1 -> {
-                        val intent = Intent(this@MainActivity, Gerekdir::class.java)
+                        val intent = Intent(this@MainActivity, goze_myhman::class.java)
                         startActivity(intent)
                     }
 

@@ -47,7 +47,7 @@ class Gurgenin : AppCompatActivity() {
                 
                 """
 
-        textview.setText(getString(R.string.Gurgenin))
+        textview.text = getString(R.string.Gurgenin)
 
 
         // set value to the given TextView

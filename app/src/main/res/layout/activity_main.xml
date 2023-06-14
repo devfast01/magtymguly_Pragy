@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:layout_marginLeft="50dp"
-        android:text="Magtyguly Pragy"
+        android:text="@string/magtyguly_pragy"
         android:textColor="#B56951"
         android:textSize="25sp"/>
 
@@ -23,16 +23,16 @@
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/flag_of_turkmenistan_svg"
+        android:background="@drawable/flag_of_the_united_kingdom__3_5__svg"
         />
 
     <ImageButton
-        android:id="@+id/btnRussian"
+        android:id="@+id/btnTurkmen"
         android:layout_width="40dp"
         android:layout_height="30dp"
         android:layout_marginLeft="300dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/flag_of_the_united_kingdom__3_5__svg" />
+        android:background="@drawable/flag_of_turkmenistan_svg" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"

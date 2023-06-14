@@ -35,7 +35,7 @@ class Activity_players : AppCompatActivity() {
 
         // Static data are stored one by one in the tutorialList arrayList
         gosgyList!!.add(soundModel("Gurgenin", R.drawable.play_button))
-        gosgyList!!.add(soundModel("Gerekdir", R.drawable.play_button))
+        gosgyList!!.add(soundModel("Göze myhmandyr", R.drawable.play_button))
         gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
         gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
         gosgyList!!.add(soundModel("Magtymguly", R.drawable.play_button))
@@ -58,12 +58,11 @@ class Activity_players : AppCompatActivity() {
                         startActivity(intent)
                     }
                     1 ->{
-                        val intent = Intent(this@Activity_players, Gerekdir::class.java)
+                        val intent = Intent(this@Activity_players, goze_myhman_sound::class.java)
                         startActivity(intent)
                     }
                     2 ->Toast.makeText(applicationContext, "uc:",Toast.LENGTH_SHORT).show()
                     else -> { // Note the block
-
                     }
                 }
 

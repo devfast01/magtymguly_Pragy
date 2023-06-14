@@ -4,13 +4,7 @@
     <string name="text_hello">Английский привет мир текст</string>
     <string name="hello_name">Язык меняется кнопкой</string>
 
-    <string name="settings">Настройки</string>
-    <string name="about">Делиться</string>
-    <string name="logout">Выход</string>
-    <string name="search">Poaisk</string>
-
-
-    <string name="Gurgenin" tools:ignore="MissingTranslation">
+    <string name="Gurgenin">
         Gurgenin
 
   Öňünde belent dag, serinde duman,
@@ -38,5 +32,40 @@
   Golun sallap maral gabak periler,
   Iner olumyndan däli Gurgeniň.</string>
 
+    <string name="gozle_myhmandyr">
+       客
+\n
+\n病は不幸だが、健康はおおいなる幸い
+\n肉体の宝はとこしえではなく
+\nそれはつかのまの客に過ぎね
+\n魂は貪欲に肉体の王座を求める
+\n身近のようでいつも約束を破り
+\n法に従わね
+\n
+\n誰であろうとこの市場を訪れし者は
+\n威厳あるようとめよ
+\n受け入れられた者が
+\n勇敢なる民のうち最も勇敢なるもの
+\n
+\n魂を豊かにし
+\n貪欲さを踏みつけにできた者を称えよ
+\n真実は彼の世界であり
+\n正義は神の心の中に
+\n
+\n強欲な者の魂は貧しい
+\n罰がくだり
+\nその者は悪しきおこないを悔いるだろう
+\n
+\n私は仕えるべき者も
+\n巡礼の道も見つけられず
+\nかなわなかったこれらのことを惜しんでいる
+\n
+\nマグトウムグリ
+\n誰もがこの世のこの病とともにある
+\n恋する者だけがこの偽りの世界を楽しむことができるのだ
+
+    </string>
+
+    <string name="magtyguly_pragy">magtyguly pragy</string>
 
 </resources>

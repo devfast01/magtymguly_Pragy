@@ -1,23 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!--    <string name="app_name">Magtymgyly_Pragy</string>-->
+        <string name="app_name">Magtymgyly_Pyragy</string>
     <!-- Preference Titles -->
 
-    <string name="app_name">Change App Language</string>
     <string name="text_hello">English hello world text </string>
     <string name="hello_name">Language changed by button</string>
 
-    <string name="settings">Settings</string>
-    <string name="about">Share</string>
-    <string name="logout">Exit</string>
-    <string name="search">Search</string>
-
-    <string name="ady" tools:ignore="MissingTranslation">Gürgeniň</string>
-    <string name="binji" tools:ignore="MissingTranslation">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nTokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.\nÖňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
-    <string name="ikinji" tools:ignore="MissingTranslation">Tokaýlary bardyr gargy-gamyşly,\nzelleri bardyr altyn-kümüşli \nBoz güsbent, gyr ýylky, gara gäwmişli,\nArgaly gäw bolar maly Gürgeniň.</string>
-    <string name="ucunji" tools:ignore="MissingTranslation">Öňünde belent dag, serinde duman,\nDeňizden öwüser ýeli Gürgeniň;\nBulut oýnap,baran dolsa çaýlara,\nAkar boz bulanyp sili Gürgeniň.</string>
-
-
-    <string name="Gurgenin" tools:ignore="MissingTranslation">
+    <string name="Gurgenin" >
                     Gurgenin
 \n
   \nÖňünde belent dag, serinde duman,
@@ -44,6 +32,47 @@
   \nHijran tygy bilen bagryn paralar,
   \nGolun sallap maral gabak periler,
   \nIner olumyndan däli Gurgeniň.</string>
+
+    <string name="gozle_myhmandyr">
+        Göze myhmandyr
+        \n
+\nGara daşdan gara gyly saýlan göz,
+\nÇöňňeler görejiň, göze myhmandyr.
+\nGelen aş diýp gelmez, turşutmagyl ýüz.
+\nNana mähtäç däldir, söze myhmandyr.
+        \n
+\nAgyrdyr heňňamlar, uzakdyr ýollar,
+\nSoraşsa ýigitler, sözleşse tiller,
+\nBaharda açylan reňbe-reň güller
+\nBir pasyl açylar, ýaza myhmandyr.
+        \n
+\nNe azym hünärler, ne syrly işler,
+\nNe howaly daglar, belent agaçlar,
+\nAltmyş elwan, ýetmiş dürli iýmişler
+\nAgaçdan aýrylar, güýze myhmandyr.
+        \n
+\nÝigidiň bolmasa ýaragy, aty,
+\nŞony belli biliň, ýokdur gaýraty!
+\nGojaldykça, gider süňňüň kuwwaty,
+\nÝigitligiň zory dyza myhmandyr.
+        \n
+\nBu dünýä ýüzüňe gülüm-gülümdir,
+\nJepasy köp bolar, jebri zulumdyr,
+\nHer niçe ýaşasaň, ahyr ölümdir,
+\nEziz janlar tende bize myhmandyr.
+        \n
+  \n      Haky ýada salsaň hakdan gorkyňa,
+\nŞeýtan ara düşer, goýmaz erkiňe.
+\nGuba juwan, guwanmagyl görküňe,
+\nGojalar sen, görküň ýüze myhmandyr.
+        \n
+\nMagtymguly aýdar, iller, özümde,
+\nÖlüm ýadymdadyr, gorky gözümde,
+\nHer niçe ýaşasaň ýeriň ýüzünde,
+\nAdam ogly bäş gün duza myhmandyr.
+
+    </string>
+    <string name="magtyguly_pragy">Magtyguly Pragy</string>
 
 
 </resources>

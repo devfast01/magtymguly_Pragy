@@ -11,7 +11,6 @@ import android.widget.Toast
 
 class gurgenin_Sound : AppCompatActivity() {
 
-
     private lateinit var mediaPlayer: MediaPlayer
     private lateinit var runnable:Runnable
     private var handler: Handler = Handler()
