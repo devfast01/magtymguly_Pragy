@@ -1,15 +1,11 @@
 package com.example.magtymgyly_pragy
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-
-class Change_Language : AppCompatActivity() {
-
+class language_changer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_change_language)
-
-
+        setContentView(R.layout.activity_language_changer)
     }
 }
