@@ -7,14 +7,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="50dp"
+        android:text="Magtyguly Pragy"
+        android:textColor="#B56951"
+        android:textSize="25sp"/>
+
     <!-- Using CardView for CircularImageView -->
+    <ImageButton
+        android:id="@+id/btnEngish"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/flag_of_turkmenistan_svg"
+        />
+
+    <ImageButton
+        android:id="@+id/btnRussian"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/flag_of_the_united_kingdom__3_5__svg" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="400dp"
         android:layout_height="250dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="55dp"
         app:cardCornerRadius="10dp">
 
         <!-- add a Image image.png in your Drawable folder -->
@@ -26,13 +52,13 @@
             android:src="@drawable/magtymguly" />
     </androidx.cardview.widget.CardView>
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/bottomNav"
-        >
-    </FrameLayout>
+<!--    <FrameLayout-->
+<!--        android:id="@+id/container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_above="@+id/bottomNav"-->
+<!--        >-->
+<!--    </FrameLayout>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewOne"

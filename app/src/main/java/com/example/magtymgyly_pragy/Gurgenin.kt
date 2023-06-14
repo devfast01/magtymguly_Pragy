@@ -43,12 +43,15 @@ class Gurgenin : AppCompatActivity() {
   Magtymguly ilden-ile aralar,
   Hijran tygy bilen bagryn paralar,
   Golun sallap maral gabak periler,
-  Iner olumyndan däli Gurgeniň.
+  Iner ol umyndan däli Gurgeniň.
                 
                 """
 
+        textview.setText(getString(R.string.Gurgenin))
+
+
         // set value to the given TextView
-        textview.text = para
+//        textview.text = para
 
         // to perform the movement action
         // Moves the cursor or scrolls to the

@@ -1,9 +1,12 @@
 package com.example.magtymgyly_pragy
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -12,6 +15,8 @@ import com.example.magtymgyly_pragy.RVOneAdapter.OnItemsClickListener
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+    lateinit var btnEnglish: ImageButton
+    lateinit var btnRusssian: ImageButton
     lateinit var bottomNav: BottomNavigationView
 
     // reference for the Main-List RecyclerView
@@ -23,12 +28,23 @@ class MainActivity : AppCompatActivity() {
     // reference for the RVOneAdapter class
     private var rvOneAdapter: RVOneAdapter? = null
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         // Linked up with its respective id used in the activity_main.xml
+        btnEnglish = findViewById(R.id.btnEngish)
+        btnRusssian = findViewById(R.id.btnRussian)
         RVOne = findViewById(R.id.recyclerViewOne)
+
+
+        btnEnglish.setOnClickListener {
+            Toast.makeText(this, "English", Toast.LENGTH_SHORT).show()
+        }
+        btnRusssian.setOnClickListener {
+            Toast.makeText(this, "Russian", Toast.LENGTH_SHORT).show()
+        }
 
         // Setting the Main-List RecyclerView horizontally
         RVOne?.run {
