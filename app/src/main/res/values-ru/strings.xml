@@ -3,4 +3,9 @@
     <string name="app_name">Изменить язык приложения</string>
     <string name="text_hello">Английский привет мир текст</string>
     <string name="hello_name">Язык меняется кнопкой</string>
+
+    <string name="settings">Настройки</string>
+    <string name="about">Делиться</string>
+    <string name="logout">Выход</string>
+    <string name="search">Poaisk</string>
 </resources>

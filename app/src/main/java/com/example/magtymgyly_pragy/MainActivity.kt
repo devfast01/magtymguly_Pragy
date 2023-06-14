@@ -2,6 +2,8 @@ package com.example.magtymgyly_pragy
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -9,9 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.magtymgyly_pragy.RVOneAdapter.OnItemsClickListener
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-
 class MainActivity : AppCompatActivity() {
-    lateinit var bottomNav : BottomNavigationView
+    lateinit var bottomNav: BottomNavigationView
 
     // reference for the Main-List RecyclerView
     private var RVOne: RecyclerView? = null
@@ -30,7 +31,10 @@ class MainActivity : AppCompatActivity() {
         RVOne = findViewById(R.id.recyclerViewOne)
 
         // Setting the Main-List RecyclerView horizontally
-        RVOne?.run { layoutManager = LinearLayoutManager(applicationContext,LinearLayoutManager.VERTICAL,false)}
+        RVOne?.run {
+            layoutManager =
+                LinearLayoutManager(applicationContext, LinearLayoutManager.VERTICAL, false)
+        }
         gosgyList = ArrayList()
 
         // Static data are stored one by one in the tutorialList arrayList
@@ -44,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
 
 
-
         // The app will show Algorithms Sub-List every time the activity starts
         rvOneAdapter = RVOneAdapter(gosgyList!!)
         RVOne.run { this!!.adapter = rvOneAdapter }
@@ -55,15 +58,17 @@ class MainActivity : AppCompatActivity() {
 //                val intent = Intent(this@MainActivity, Activity_gosgy::class.java)
 //                startActivity(intent)
                 when (positon) {
-                    0 ->{
+                    0 -> {
                         val intent = Intent(this@MainActivity, Gurgenin::class.java)
                         startActivity(intent)
                     }
-                    1 ->{
+
+                    1 -> {
                         val intent = Intent(this@MainActivity, Gerekdir::class.java)
                         startActivity(intent)
                     }
-                    2 ->Toast.makeText(applicationContext, "uc:",Toast.LENGTH_SHORT).show()
+
+                    2 -> Toast.makeText(applicationContext, "uc:", Toast.LENGTH_SHORT).show()
                     else -> { // Note the block
 
                     }
@@ -78,14 +83,16 @@ class MainActivity : AppCompatActivity() {
         bottomNav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
-                    Toast.makeText(applicationContext,"Current Page",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext, "Current Page", Toast.LENGTH_SHORT).show()
 //                    startActivity(Intent(this, Activity_players::class.java))
                     true
                 }
+
                 R.id.message -> {
                     startActivity(Intent(this, Activity_players::class.java))
                     true
                 }
+
                 R.id.settings -> {
                     startActivity(Intent(this, language_changer::class.java))
                     true
@@ -96,6 +103,20 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main,menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId){
+            R.id.about -> Toast.makeText(this,"About Selected",Toast.LENGTH_SHORT).show()
+            R.id.settings -> Toast.makeText(this,"Settings Selected",Toast.LENGTH_SHORT).show()
+            R.id.exit -> Toast.makeText(this,"Exit Selected",Toast.LENGTH_SHORT).show()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
 
