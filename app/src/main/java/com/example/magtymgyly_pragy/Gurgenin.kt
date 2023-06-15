@@ -18,8 +18,21 @@ class Gurgenin : LocalizationActivity() {
         // initializing the TextView
         textview = findViewById(R.id.text)
 
-        // Creating a string that contains the information to be displayed
-        val para = """                       Gurgenin
+        textview.text = getString(R.string.Gurgenin)
+
+
+        // to perform the movement action
+        // Moves the cursor or scrolls to the
+        // top or bottom of the document
+        textview.movementMethod = ScrollingMovementMethod()
+
+
+    }
+}
+
+
+// Creating a string that contains the information to be displayed
+val para = """                       Gurgenin
             
   Öňünde belent dag, serinde duman,
   Deňizden öwüser ýeli Gürgeniň;
@@ -48,17 +61,5 @@ class Gurgenin : LocalizationActivity() {
                 
                 """
 
-        textview.text = getString(R.string.Gurgenin)
-
-
-        // set value to the given TextView
+// set value to the given TextView
 //        textview.text = para
-
-        // to perform the movement action
-        // Moves the cursor or scrolls to the
-        // top or bottom of the document
-        textview.movementMethod = ScrollingMovementMethod()
-
-
-    }
-}
