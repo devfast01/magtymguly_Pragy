@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1EEEE"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,12 +19,12 @@
 
     <!-- Using CardView for CircularImageView -->
     <ImageButton
-        android:id="@+id/btnEngish"
+        android:id="@+id/btnJapan"
         android:layout_width="40dp"
         android:layout_height="30dp"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/flag_of_the_united_kingdom__3_5__svg"
+        android:background="@drawable/flag_of_japan_svg"
         />
 
     <ImageButton

@@ -12,7 +12,7 @@ class language_changer : LocalizationActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_language_changer)
 
-        btnEnglish = findViewById(R.id.btnEngish)
+        btnEnglish = findViewById(R.id.btnJapan)
         btnRussian = findViewById(R.id.btnTurkmen)
 
         btnEnglish.setOnClickListener {

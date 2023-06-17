@@ -14,7 +14,7 @@ import com.example.magtymgyly_pragy.RVOneAdapter.OnItemsClickListener
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : LocalizationActivity() {
-    lateinit var btnEnglish: ImageButton
+    lateinit var btnJapan: ImageButton
     lateinit var btnTurkmen: ImageButton
     lateinit var bottomNav: BottomNavigationView
 
@@ -33,16 +33,16 @@ class MainActivity : LocalizationActivity() {
         setContentView(R.layout.activity_main)
 
         // Linked up with its respective id used in the activity_main.xml
-        btnEnglish = findViewById(R.id.btnEngish)
+        btnJapan = findViewById(R.id.btnJapan)
         btnTurkmen = findViewById(R.id.btnTurkmen)
         RVOne = findViewById(R.id.recyclerViewOne)
 
 
-        btnEnglish.setOnClickListener {
-            setLanguage("en")
+        btnJapan.setOnClickListener {
+            setLanguage("ja")
         }
         btnTurkmen.setOnClickListener {
-            setLanguage("ru")
+            setLanguage("en")
         }
 
         // Setting the Main-List RecyclerView horizontally
@@ -53,9 +53,9 @@ class MainActivity : LocalizationActivity() {
         gosgyList = ArrayList()
 
         // Static data are stored one by one in the tutorialList arrayList
-        gosgyList!!.add(RVOneModel("Gurgenin", R.drawable.magtymguly))
+        gosgyList!!.add(RVOneModel("Gule Menzeyar", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Göze myhmandyr", R.drawable.magtymguly))
-        gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
+        gosgyList!!.add(RVOneModel("Türkmeniň", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
         gosgyList!!.add(RVOneModel("Magtymguly", R.drawable.magtymguly))
@@ -70,26 +70,24 @@ class MainActivity : LocalizationActivity() {
         // Setting up the events that will occur on each Main-List item click
         rvOneAdapter!!.setWhenClickListener(object : OnItemsClickListener {
             override fun onItemClick(positon: Int) {
-//                val intent = Intent(this@MainActivity, Activity_gosgy::class.java)
-//                startActivity(intent)
+
                 when (positon) {
                     0 -> {
                         val intent = Intent(this@MainActivity, Gurgenin::class.java)
                         startActivity(intent)
                     }
-
                     1 -> {
                         val intent = Intent(this@MainActivity, goze_myhman::class.java)
                         startActivity(intent)
                     }
-
-                    2 -> Toast.makeText(applicationContext, "uc:", Toast.LENGTH_SHORT).show()
+                    2 -> {
+                        val intent = Intent(this@MainActivity, turkmenin::class.java)
+                        startActivity(intent)
+                    }
                     else -> { // Note the block
-
+                        Toast.makeText(applicationContext, "No CLICK",Toast.LENGTH_SHORT).show()
                     }
                 }
-
-                //Toast.makeText(applicationContext, "Position: $positon",Toast.LENGTH_SHORT).show()
             }
         })
 

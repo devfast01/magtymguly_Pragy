@@ -11,7 +11,6 @@ class goze_myhman : LocalizationActivity() {
 
     // Declaring TextView from the Layout
     private lateinit var textview: TextView
-
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
